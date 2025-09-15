@@ -1,0 +1,65 @@
+body {
+    background-color: #f0f2f5;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.kviz-kontejner {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.odpoved-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: #e9ecef;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.odpoved-btn:hover {
+    background-color: #d0d5db;
+}
+
+.odpoved-btn.spravne {
+    background-color: #28a745;
+    color: white;
+    border-color: #28a745;
+}
+
+.odpoved-btn.spatne {
+    background-color: #dc3545;
+    color: white;
+    border-color: #dc3545;
+}
+
+#dalsi-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: none;
+}
