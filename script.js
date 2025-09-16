@@ -25,8 +25,8 @@ const otazky = [
             { text: "Séria príkazov, ktoré majú spoločnú úlohu, sú zabalené k sebe do spoločného bloku kódu, ktorý je možné opakovane volať", spravne: true },
             { text: "Podmienka na porovnanie dvoch hodnôt", spravne: false },
         ]
-    },
-        {
+    }, // <-- Takto to má být
+    {
         otazka: "Na čo slúžia podmienky v programovaní",
         odpovedi: [
             { text: "Na evidenciu viacerých vlastností o jednej veci, vo formáte kľúč - hodnota", spravne: false },
@@ -52,7 +52,204 @@ const otazky = [
             { text: "Dátové štruktúry dovoľujúce evidovať vlastnosti vo formáte kľúč-hodnota", spravne: true },
             { text: "Bloky kódu, ktoré sa spustia iba za určitej podmienky", spravne: false },
         ]
-    }
+    },
+     {
+
+        otazka: "Čo je cyklus v JavaScripte?",
+
+        odpovedi: [
+
+            { text: "Štruktúra, ktorá opakuje blok kódu, kým platí určitá podmienka", spravne: true },
+
+            { text: "Funkcia, ktorá kontroluje pravdivosť výrazu", spravne: false },
+
+            { text: "Zápis, ktorého jediná úloha je zistiť, či sa premenná je typu pole", spravne: false },
+
+            { text: "Metóda na získanie konkrétnej hodnoty z objektu", spravne: false },
+
+        ]
+
+    },
+
+    {
+
+        otazka: "Čo znamená API v programovaní?",
+
+        odpovedi: [
+
+            { text: "Špeciálny dátový typ, ktorý hovorí, že premenná je zámerne prázdna", spravne: false },
+
+            { text: "Nástroj na hľadanie a opravovanie chýb v kóde", spravne: false },
+
+            { text: "Rozhranie, ktoré umožňuje aplikáciám komunikovať medzi sebou", spravne: true },
+
+            { text: "Operátor na porovnávanie hodnôt", spravne: false },
+
+        ]
+
+    },
+
+    {
+
+        otazka: "Čo sú argumenty vo funkcii?",
+
+        odpovedi: [
+
+            { text: "Metódy na iterovanie cez pole", spravne: false },
+
+            { text: "Typy premenných, ktorú sú schopné evidovať zoznam hodnôt v určitom poradí", spravne: false },
+
+            { text: "Operátory na kontrolu pravdivosti podmienky", spravne: false },
+
+            { text: "Hodnoty, ktoré posielame funkcii, aby ich mohla použiť pri výpočtoch", spravne: true },
+
+        ]
+
+    },
+
+    {
+
+        otazka: "Aký je rozdiel medzi undefined a null v JavaScripte?",
+
+        odpovedi: [
+
+            { text: "undefined znamená, že hodnota neexistuje; null znamená, že hodnota je zámerne prázdna", spravne: true },
+
+            { text: "undefined je dátový typ; null je funkcia", spravne: false },
+
+            { text: "medzi undefined a null neexistujú rozdiely", spravne: false },
+
+            { text: "null znamená, že premenná neexistuje; undefined je pole, ktoré v sebe nemá žiadne hodnoty", spravne: false },
+
+        ]
+
+    },
+
+    {
+
+        otazka: "Na čo slúži kľúčové slovo return vo funkcii?",
+
+        odpovedi: [
+
+            { text: "Na vrátenie hodnoty z funkcie späť do miesta, kde bola funkcia zavolaná", spravne: true },
+
+            { text: "Na zastavenie cyklu", spravne: false },
+
+            { text: "Na vytvorenie novej premennej", spravne: false },
+
+            { text: "Na porovnávanie hodnôt v podmienkach", spravne: false },
+
+        ]
+
+    },
+
+    {
+
+        otazka: "Na čo pri programovaní slúži debugger?",
+
+        odpovedi: [
+
+            { text: "Metóda na testovanie rýchlosti aplikácie", spravne: false },
+
+            { text: "Funkcia na automatické odstránenie chýb z kódu", spravne: false },
+
+            { text: "Nástroj na zastavenie behu kódu a kontrolu jeho stavu v danom bode, často pomáhajúci s hľadaním chýb", spravne: true },
+
+            { text: "Je to séria príkazov, ktoré majú spoločnú úlohu, sú zabalené k sebe do spoločného bloku kódu, ktorý je možné opakovane volať", spravne: false },
+
+        ]
+
+    },
+
+    {
+
+        otazka: "Čo sú udalosti (events) v JavaScripte?",
+
+        odpovedi: [
+
+            { text: "Akcie, ktoré nastávajú na webe, ako kliknutie alebo stlačenie klávesy", spravne: true },
+
+            { text: "Dátové štruktúry dovoľujúce evidovať vlastnosti vo formáte kľúč-hodnota", spravne: false },
+
+            { text: "Dátový typ na reprezentovanie reťazcov", spravne: false },
+
+            { text: "Špeciálne objekty na ukladanie funkcií", spravne: false },
+
+        ]
+
+    },
+
+    {
+
+        otazka: "Čo robí event listener v JavaScripte?",
+
+        odpovedi: [
+
+            { text: "Zastavuje spúšťanie funkcie, ak dôjde k chybe", spravne: false },
+
+            { text: "Opakuje blok kódu za predpokladu, že programátorom určená podmienka zostáva splnená ", spravne: false },
+
+            { text: "Čaká na určitú udalosť (napríklad kliknutie) a spustí funkciu, keď udalosť nastane", spravne: true },
+
+            { text: "Pridáva hodnoty do poľa", spravne: false },
+
+        ]
+
+    },
+
+    {
+
+        otazka: "Čo sú knižnice (libraries) v JavaScripte?",
+
+        odpovedi: [
+
+            { text: "Zbierky predpripraveného kódu, ktoré môžeme použiť na zjednodušenie programovania", spravne: true },
+
+            { text: "Funkcie, ktoré zisťujú koľko slov alebo znakov sa nachádza v texte uloženom v premennej", spravne: false },
+
+            { text: "Nástroje na zisťovanie syntaxových chýb", spravne: false },
+
+            { text: "Hodnoty, ktoré posielame funkcii, aby ich mohla použiť pri výpočtoch", spravne: false },
+
+        ]
+
+    },
+
+    {
+
+        otazka: "Ktorý z nasledujúcich zápisov správne vytvára novú premennú v JavaScripte?",
+
+        odpovedi: [
+
+            { text: "variable score = 420", spravne: false },
+
+            { text: "let score = 420", spravne: true },
+
+            { text: "new score := 420", spravne: false },
+
+            { text: "create score 420", spravne: false },
+
+        ]
+
+    },
+
+    {
+
+        otazka: "Ktorý zápis v JavaScripte spustí cyklus?",
+
+        odpovedi: [
+
+            { text: " loop (i = 0; i < 5; i++) { console.log(i); } ", spravne: false },
+
+            { text: " cycle { i = 0; while i < 5 { i++; } } ", spravne: false },
+
+           { text: " for (let i = 0; i < 5; i++) { console.log(i); } ", spravne: true },
+
+            { text: " for i in 5: print(i) ", spravne: false },
+
+        ]
+
+    },
 ];
 
 const otazkaElement = document.getElementById("otazka");
